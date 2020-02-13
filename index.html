@@ -98,10 +98,18 @@
 
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+	<style>
+	.navbar-custom { 
+    background-color: #091F40 !important ; 
+		} 
+		.button-custom {
+			background-color: #AC1E2D !important;
+		}	
+	</style>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-custom" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a style = "color: #AC1E2D" class="navbar-brand js-scroll-trigger" href="#page-top">The Taco Place</a>
+      <button class="navbar-toggler navbar-toggler-right button-custom" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
@@ -142,7 +150,7 @@
       <div class="intro-text">
         <div class="intro-lead-in">Welcome To Our Restaurant!</div>
         <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Show Me More</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger button-custom" href="#services">Show Me More</a>
       </div>
     </div>
   </header>
@@ -668,7 +676,7 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase button-custom" type="submit">Send Message</button>
               </div>
             </div>
           </form>
